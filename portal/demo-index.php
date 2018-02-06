@@ -4,10 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Fast Alumni Portal</title>
-  
-    <link rel="stylesheet" href="css/style.css">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+<?php
+
+include("header.php")
+
+?>
 
 
     <style type="text/css">
@@ -15,7 +17,7 @@
       {
      
         text-align: left;
-        background-image: url("pic/fast.jpg");
+        background-image: url("img/fast.jpg");
        	background-size: 100% 150%;
       
       }
@@ -118,3 +120,10 @@
         </div>
 	</body>
 </html>
+
+
+<?php
+
+include("footer.php")
+
+?>
